@@ -1,0 +1,9 @@
+# Environnement virtuel Python
+.venv/
+# Secrets : seul .env.example est versionné
+.env
+# Fichiers générés
+__pycache__/
+.ipynb_checkpoints/
+# Modèles : jamais versionnés
+models/
