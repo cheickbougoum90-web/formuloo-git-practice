@@ -9,3 +9,13 @@ Il reproduit les conventions du dépôt Formuloo OS (GitLab) :
 - `cheick-bougoum/feature/<tâche>` : une sous-branche par tâche
 - pull request de la sous-branche vers `cheick-bougoum`
 - messages de commit au format Conventional Commits (`feat:`, `fix:`, `docs:`, `chore:`)
+
+## Installation (Windows, Git Bash)
+
+```bash
+python -m venv .venv
+source .venv/Scripts/activate
+pip install -r requirements.txt
+cp .env.example .env
+python scripts/verifier_environnement.py   # doit afficher « Environnement IA OK »
+```
