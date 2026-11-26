@@ -6,7 +6,7 @@ Il reproduit les conventions du dépôt Formuloo OS (GitLab) :
 
 - `main` et `develop` : branches protégées, jamais modifiées directement
 - `cheick-bougoum` : branche de livraison, créée depuis `develop`
-- `cheick-bougoum/feature/<tâche>` : une sous-branche par tâche
+- `cheick-bougoum-feature/<tâche>` : une sous-branche par tâche
 - pull request de la sous-branche vers `cheick-bougoum`
 - messages de commit au format Conventional Commits (`feat:`, `fix:`, `docs:`, `chore:`)
 
